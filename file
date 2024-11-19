@@ -1,0 +1,30 @@
+# file handling 
+
+# create file 
+# f=open("filename.ext","w")
+# f.write("your msg")
+# f.close()
+
+
+
+# write data into file : Syntax
+# f=open("filename.ext","w")
+# f.write("your msgg")
+# f.close()
+
+
+# read data from  file : Syntax
+# f=open("filename.ext","r")
+# f.read()
+
+
+
+# delete file : Syntax
+# import os 
+# os.remove("filename.ext")
+
+
+
+# check file exist or not : Syntax
+# import os 
+# os.path.exists("filename.ext")

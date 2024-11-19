@@ -24,3 +24,11 @@ print("area of square is",output)
 
 
 #delivery cost , food cost , price, discount , vat 
+cost= int(input("enter the price of food"))
+delivery= int(input("enter the delivery price of food"))
+discount= int(input("enter the discount given on food"))
+vat= int(input("enter the vat given on food"))
+def price(cost,delivery,discount,vat):
+    return cost+delivery-discount+vat
+price=price(cost,delivery,discount,vat)
+print("price of food is",price)
